@@ -1,0 +1,1239 @@
+<!doctype html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Дашборд бизнеса</title>
+        <link
+            href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&family=Outfit:wght@300;400;500;600;700;800&family=DM+Sans:wght@400;500;600;700&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" href="styles.css" />
+    </head>
+    <body>
+        <!-- ═══════ SIDEBAR ═══════ -->
+        <aside class="sidebar">
+            <div class="sidebar-logo">
+                <div class="logo-mark">
+                    <div class="logo-icon">
+                        <svg
+                            viewBox="0 0 24 24"
+                            fill="none"
+                            stroke="#fff"
+                            stroke-width="2"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                        >
+                            <polygon
+                                points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"
+                            />
+                        </svg>
+                    </div>
+                    <span class="logo-text">AI-панель управления</span>
+                </div>
+                <div class="logo-sub">ООО название организации</div>
+            </div>
+            <nav class="sidebar-nav">
+                <div>
+                    <div class="nav-label">Мониторинг</div>
+                    <div class="nav-item active">
+                        <span class="nav-ico"
+                            ><svg viewBox="0 0 24 24">
+                                <polygon
+                                    points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"
+                                /></svg
+                        ></span>
+                        Пульс компании
+                    </div>
+                    <div class="nav-item">
+                        <span class="nav-ico"
+                            ><svg viewBox="0 0 24 24">
+                                <polyline points="16 3 21 3 21 8" />
+                                <line x1="4" y1="20" x2="21" y2="3" />
+                                <polyline points="21 16 21 21 16 21" />
+                                <line x1="15" y1="15" x2="21" y2="21" />
+                                <line x1="4" y1="4" x2="9" y2="9" /></svg
+                        ></span>
+                        Каналы
+                    </div>
+                    <div class="nav-item">
+                        <span class="nav-ico"
+                            ><svg viewBox="0 0 24 24">
+                                <rect
+                                    x="3"
+                                    y="3"
+                                    width="7"
+                                    height="7"
+                                    rx="1.5"
+                                />
+                                <rect
+                                    x="14"
+                                    y="3"
+                                    width="7"
+                                    height="7"
+                                    rx="1.5"
+                                />
+                                <rect
+                                    x="3"
+                                    y="14"
+                                    width="7"
+                                    height="7"
+                                    rx="1.5"
+                                />
+                                <rect
+                                    x="14"
+                                    y="14"
+                                    width="7"
+                                    height="7"
+                                    rx="1.5"
+                                /></svg
+                        ></span>
+                        РНП маркетплейсы
+                    </div>
+                    <div class="nav-item">
+                        <span class="nav-ico"
+                            ><svg viewBox="0 0 24 24">
+                                <circle cx="12" cy="12" r="9" />
+                                <line x1="3" y1="12" x2="21" y2="12" />
+                                <path d="M12 3a14 14 0 0 1 0 18" />
+                                <path d="M12 3a14 14 0 0 0 0 18" /></svg
+                        ></span>
+                        РНП сайты
+                    </div>
+                    <div class="nav-item">
+                        <span class="nav-ico"
+                            ><svg viewBox="0 0 24 24">
+                                <path d="M4 18V6" />
+                                <path d="M10 18V10" />
+                                <path d="M16 18V13" />
+                                <path d="M22 18V4" /></svg
+                        ></span>
+                        ABC-анализ
+                    </div>
+                    <div class="nav-item">
+                        <span class="nav-ico"
+                            ><svg viewBox="0 0 24 24">
+                                <path
+                                    d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"
+                                />
+                                <line x1="12" y1="9" x2="12" y2="13" />
+                                <line x1="12" y1="17" x2="12.01" y2="17" /></svg
+                        ></span>
+                        Отказы и возвраты
+                    </div>
+                    <div class="nav-item">
+                        <span class="nav-ico"
+                            ><svg viewBox="0 0 24 24">
+                                <path d="M3 7l9-4 9 4-9 4-9-4z" />
+                                <path d="M3 7v10l9 4 9-4V7" />
+                                <path d="M12 11v10" /></svg
+                        ></span>
+                        Склад
+                    </div>
+                </div>
+                <div>
+                    <div class="nav-label">Управление</div>
+                    <div class="nav-item">
+                        <span class="nav-ico"
+                            ><svg viewBox="0 0 24 24">
+                                <path
+                                    d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"
+                                />
+                                <polyline
+                                    points="3.27 6.96 12 12.01 20.73 6.96"
+                                />
+                                <line x1="12" y1="22.08" x2="12" y2="12" /></svg
+                        ></span>
+                        Товары
+                    </div>
+                    <div class="nav-item">
+                        <span class="nav-ico"
+                            ><svg viewBox="0 0 24 24">
+                                <line x1="12" y1="1" x2="12" y2="23" />
+                                <path
+                                    d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"
+                                /></svg
+                        ></span>
+                        Цены
+                    </div>
+                    <div class="nav-item">
+                        <span class="nav-ico"
+                            ><svg viewBox="0 0 24 24">
+                                <rect
+                                    x="1"
+                                    y="3"
+                                    width="15"
+                                    height="13"
+                                    rx="2"
+                                />
+                                <polyline
+                                    points="16 8 20 8 23 11 23 16 16 16 16 8"
+                                />
+                                <circle cx="5.5" cy="18.5" r="2.5" />
+                                <circle cx="18.5" cy="18.5" r="2.5" /></svg
+                        ></span>
+                        Закупки
+                    </div>
+                    <div class="nav-item">
+                        <span class="nav-ico"
+                            ><svg viewBox="0 0 24 24">
+                                <path d="M3 3h18v4H3z" />
+                                <path
+                                    d="M5 7v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V7"
+                                />
+                                <path d="M9 11h6" />
+                                <path d="M9 15h4" /></svg
+                        ></span>
+                        Конкуренты
+                    </div>
+                    <div class="nav-item">
+                        <span class="nav-ico"
+                            ><svg viewBox="0 0 24 24">
+                                <polyline points="3 3 3 9 9 9" />
+                                <path d="M3 9a9 9 0 1 0 3-6.7" />
+                                <path d="M12 7v5l4 2" /></svg
+                        ></span>
+                        История действий
+                    </div>
+                </div>
+                <div>
+                    <div class="nav-label">Финансы</div>
+                    <div class="nav-item">
+                        <span class="nav-ico"
+                            ><svg viewBox="0 0 24 24">
+                                <path
+                                    d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"
+                                />
+                                <circle cx="9" cy="7" r="4" />
+                                <path d="M23 21v-2a4 4 0 0 0-3-3.87" />
+                                <path d="M16 3.13a4 4 0 0 1 0 7.75" /></svg
+                        ></span>
+                        P&L
+                    </div>
+                    <div class="nav-item">
+                        <span class="nav-ico"
+                            ><svg viewBox="0 0 24 24">
+                                <path d="M22 12h-4l-3 9L9 3l-3 9H2" /></svg
+                        ></span>
+                        ДДС
+                    </div>
+                </div>
+            </nav>
+        </aside>
+
+        <!-- ═══════ MAIN ═══════ -->
+        <main class="main">
+            <div class="page-header">
+                <div>
+                    <h2>
+                        <svg
+                            width="22"
+                            height="22"
+                            viewBox="0 0 24 24"
+                            fill="none"
+                            stroke="var(--accent-blue)"
+                            stroke-width="2"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                        >
+                            <polygon
+                                points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"
+                            />
+                        </svg>
+                        Пульс бизнеса
+                    </h2>
+                    <p class="page-sub" id="page-sub">
+                        26 марта 2026 - 01 апреля 2026
+                    </p>
+                </div>
+                <div
+                    class="period-controls"
+                    data-default-sub="26 марта 2026 - 01 апреля 2026"
+                >
+                    <div
+                        class="time-pills"
+                        role="toolbar"
+                        aria-label="Период отчёта"
+                    >
+                        <button type="button" class="pill" data-period="day">
+                            День
+                        </button>
+                        <button
+                            type="button"
+                            class="pill on"
+                            data-period="week"
+                        >
+                            Неделя
+                        </button>
+                        <button type="button" class="pill" data-period="month">
+                            Месяц
+                        </button>
+                        <button
+                            type="button"
+                            class="pill"
+                            data-period="quarter"
+                        >
+                            Квартал
+                        </button>
+                        <button
+                            type="button"
+                            class="pill"
+                            data-period="custom"
+                            aria-expanded="false"
+                            aria-controls="period-custom-panel"
+                        >
+                            Свой период
+                        </button>
+                    </div>
+                    <div
+                        class="period-custom"
+                        id="period-custom-panel"
+                        role="region"
+                        aria-label="Интервал дат"
+                    >
+                        <label class="period-field">
+                            <span class="period-field-label">От</span>
+                            <span class="period-date-wrap">
+                                <input
+                                    type="date"
+                                    id="period-from"
+                                    name="period-from"
+                                    value="2026-03-26"
+                                    autocomplete="off"
+                                />
+                            </span>
+                        </label>
+                        <label class="period-field">
+                            <span class="period-field-label">До</span>
+                            <span class="period-date-wrap">
+                                <input
+                                    type="date"
+                                    id="period-to"
+                                    name="period-to"
+                                    value="2026-04-01"
+                                    autocomplete="off"
+                                />
+                            </span>
+                        </label>
+                    </div>
+                </div>
+            </div>
+
+            <!-- KPI -->
+            <div class="kpi-strip">
+                <div class="kpi g">
+                    <div class="kpi-lbl">Выручка</div>
+                    <div class="kpi-val">12.4М ₽</div>
+                    <div class="kpi-row">
+                        <span class="delta up">▲ 14.2%</span
+                        ><span class="kpi-note">план 12М ₽</span>
+                    </div>
+                    <div class="kpi-spark">
+                        <svg viewBox="0 0 120 28" preserveAspectRatio="none">
+                            <defs>
+                                <linearGradient
+                                    id="gg"
+                                    x1="0"
+                                    x2="0"
+                                    y1="0"
+                                    y2="1"
+                                >
+                                    <stop
+                                        offset="0%"
+                                        stop-color="#10b981"
+                                        stop-opacity="0.18"
+                                    />
+                                    <stop
+                                        offset="100%"
+                                        stop-color="#10b981"
+                                        stop-opacity="0"
+                                    />
+                                </linearGradient>
+                            </defs>
+                            <polygon
+                                fill="url(#gg)"
+                                points="0,28 0,24 15,20 30,22 45,16 60,14 75,10 90,8 105,6 120,3 120,28"
+                            />
+                            <polyline
+                                fill="none"
+                                stroke="#10b981"
+                                stroke-width="1.5"
+                                points="0,24 15,20 30,22 45,16 60,14 75,10 90,8 105,6 120,3"
+                            />
+                        </svg>
+                    </div>
+                </div>
+                <div class="kpi b">
+                    <div class="kpi-lbl">Маржин. прибыль</div>
+                    <div class="kpi-val">1.8М ₽</div>
+                    <div class="kpi-row">
+                        <span class="delta dn">▼ 2.4%</span
+                        ><span class="kpi-note">план 2.1М ₽</span>
+                    </div>
+                    <div class="kpi-spark">
+                        <svg viewBox="0 0 120 28" preserveAspectRatio="none">
+                            <defs>
+                                <linearGradient
+                                    id="bg"
+                                    x1="0"
+                                    x2="0"
+                                    y1="0"
+                                    y2="1"
+                                >
+                                    <stop
+                                        offset="0%"
+                                        stop-color="#3b82f6"
+                                        stop-opacity="0.18"
+                                    />
+                                    <stop
+                                        offset="100%"
+                                        stop-color="#3b82f6"
+                                        stop-opacity="0"
+                                    />
+                                </linearGradient>
+                            </defs>
+                            <polygon
+                                fill="url(#bg)"
+                                points="0,28 0,7 15,8 30,10 45,12 60,14 75,16 90,18 105,20 120,22 120,28"
+                            />
+                            <polyline
+                                fill="none"
+                                stroke="#3b82f6"
+                                stroke-width="1.5"
+                                points="0,7 15,8 30,10 45,12 60,14 75,16 90,18 105,20 120,22"
+                            />
+                        </svg>
+                    </div>
+                </div>
+                <div class="kpi p">
+                    <div class="kpi-lbl">Заказы</div>
+                    <div class="kpi-val">4 218</div>
+                    <div class="kpi-row">
+                        <span class="delta up">▲ 0.6%</span>
+                    </div>
+                    <div class="kpi-spark">
+                        <svg viewBox="0 0 120 28" preserveAspectRatio="none">
+                            <defs>
+                                <linearGradient
+                                    id="pg"
+                                    x1="0"
+                                    x2="0"
+                                    y1="0"
+                                    y2="1"
+                                >
+                                    <stop
+                                        offset="0%"
+                                        stop-color="#8b5cf6"
+                                        stop-opacity="0.18"
+                                    />
+                                    <stop
+                                        offset="100%"
+                                        stop-color="#8b5cf6"
+                                        stop-opacity="0"
+                                    />
+                                </linearGradient>
+                            </defs>
+                            <polygon
+                                fill="url(#pg)"
+                                points="0,28 0,14 15,14 30,14 45,14 60,14 75,14 90,14 105,14 120,14 120,28"
+                            />
+                            <polyline
+                                fill="none"
+                                stroke="#8b5cf6"
+                                stroke-width="1.5"
+                                points="0,14 15,14 30,14 45,14 60,14 75,14 90,14 105,14 120,14"
+                            />
+                        </svg>
+                    </div>
+                </div>
+                <div class="kpi a">
+                    <div class="kpi-lbl">Отказы сайт</div>
+                    <div class="kpi-val">29%</div>
+                    <div class="kpi-row">
+                        <span class="delta fl">→ 0.1%</span
+                        ><span class="kpi-note">план 15%</span>
+                    </div>
+                    <div class="kpi-spark">
+                        <svg viewBox="0 0 120 28" preserveAspectRatio="none">
+                            <polyline
+                                fill="none"
+                                stroke="#f59e0b"
+                                stroke-width="1.5"
+                                points="0,14 15,13 30,15 45,14 60,16 75,13 90,14 105,13 120,14"
+                            />
+                        </svg>
+                    </div>
+                </div>
+                <div class="kpi c">
+                    <div class="kpi-lbl">SKU в наличии</div>
+                    <div class="kpi-val">58%</div>
+                    <div class="kpi-row">
+                        <span class="delta up">▲ 2.3%</span
+                        ><span class="kpi-note">56 из 96</span>
+                    </div>
+                    <div class="kpi-spark">
+                        <svg viewBox="0 0 120 28" preserveAspectRatio="none">
+                            <defs>
+                                <linearGradient
+                                    id="cg"
+                                    x1="0"
+                                    x2="0"
+                                    y1="0"
+                                    y2="1"
+                                >
+                                    <stop
+                                        offset="0%"
+                                        stop-color="#06b6d4"
+                                        stop-opacity="0.18"
+                                    />
+                                    <stop
+                                        offset="100%"
+                                        stop-color="#06b6d4"
+                                        stop-opacity="0"
+                                    />
+                                </linearGradient>
+                            </defs>
+                            <polygon
+                                fill="url(#cg)"
+                                points="0,28 0,20 15,18 30,19 45,15 60,14 75,11 90,13 105,9 120,7 120,28"
+                            />
+                            <polyline
+                                fill="none"
+                                stroke="#06b6d4"
+                                stroke-width="1.5"
+                                points="0,20 15,18 30,19 45,15 60,14 75,11 90,13 105,9 120,7"
+                            />
+                        </svg>
+                    </div>
+                </div>
+                <div class="kpi b">
+                    <div class="kpi-lbl">ROA</div>
+                    <div class="kpi-val">28.8%</div>
+                    <div class="kpi-row">
+                        <span class="delta up">▲ 0.3%</span
+                        ><span class="kpi-note">план 30%</span>
+                    </div>
+                    <div class="kpi-spark">
+                        <svg viewBox="0 0 120 28" preserveAspectRatio="none">
+                            <polyline
+                                fill="none"
+                                stroke="#3b82f6"
+                                stroke-width="1.5"
+                                points="0,15 15,14 30,14 45,13 60,13 75,12 90,12 105,11 120,11"
+                            />
+                        </svg>
+                    </div>
+                </div>
+            </div>
+
+            <!-- ALERTS + CHANNELS -->
+            <div class="core-grid">
+                <div class="card" style="animation-delay: 0.3s">
+                    <div class="card-head">
+                        <div class="card-title">
+                            <svg
+                                width="16"
+                                height="16"
+                                viewBox="0 0 24 24"
+                                fill="none"
+                                stroke="var(--accent-cyan)"
+                                stroke-width="2"
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                            >
+                                <path
+                                    d="M12 2a8 8 0 0 0-8 8c0 6 8 12 8 12s8-6 8-12a8 8 0 0 0-8-8z"
+                                />
+                                <circle cx="12" cy="10" r="3" />
+                            </svg>
+                            Уведомления
+                            <span class="notifications-total-loss"
+                                >Суммарные потери - 431 К/нед</span
+                            >
+                        </div>
+                    </div>
+                    <div class="alert-stack">
+                        <div class="alert crit expanded" id="alert1">
+                            <div
+                                class="alert-top"
+                                onclick="toggleAlert('alert1')"
+                            >
+                                <div class="alert-ico">
+                                    <svg
+                                        width="14"
+                                        height="14"
+                                        viewBox="0 0 24 24"
+                                        fill="none"
+                                        stroke="#ef4444"
+                                        stroke-width="2"
+                                        stroke-linecap="round"
+                                        stroke-linejoin="round"
+                                    >
+                                        <path
+                                            d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"
+                                        />
+                                        <line x1="12" y1="9" x2="12" y2="13" />
+                                        <line
+                                            x1="12"
+                                            y1="17"
+                                            x2="12.01"
+                                            y2="17"
+                                        />
+                                    </svg>
+                                </div>
+                                <div class="alert-body">
+                                    <div class="alert-ttl">
+                                        Остатки «DSD 3.4.1» закончатся через 3
+                                        дня
+                                    </div>
+                                    <div class="alert-sub">Потеря 420К/нед</div>
+                                </div>
+                                <div class="alert-cost">−420К/нед</div>
+                            </div>
+                            <div class="alert-actions">
+                                <div class="action-bar">
+                                    <button
+                                        class="action-btn primary"
+                                        onclick="
+                                            sendTask(
+                                                this,
+                                                'Pricing-агент',
+                                                'Повысить цену на SKU «DSD 3.4.1» на 15%',
+                                            )
+                                        "
+                                    >
+                                        Повысить цену на 15%
+                                    </button>
+                                    <button
+                                        class="action-btn"
+                                        onclick="
+                                            sendTask(
+                                                this,
+                                                'Supply-агент',
+                                                'Проверить наличие SKU «DSD 3.4.1» у местных поставщиков',
+                                            )
+                                        "
+                                    >
+                                        Проверить наличие у местных поставщиков
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="task-sent" id="alert1-sent">
+                                <div class="task-sent-icon">✅</div>
+                                <div class="task-sent-text">
+                                    <strong>Задача отправлена.</strong> Агент
+                                    приступил. Прогресс — в панели справа.
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="alert warn" id="alert2">
+                            <div
+                                class="alert-top"
+                                onclick="toggleAlert('alert2')"
+                            >
+                                <div class="alert-ico">
+                                    <svg
+                                        width="14"
+                                        height="14"
+                                        viewBox="0 0 24 24"
+                                        fill="none"
+                                        stroke="#f59e0b"
+                                        stroke-width="2"
+                                        stroke-linecap="round"
+                                        stroke-linejoin="round"
+                                    >
+                                        <circle cx="12" cy="12" r="10" />
+                                        <line x1="12" y1="8" x2="12" y2="12" />
+                                        <line
+                                            x1="12"
+                                            y1="16"
+                                            x2="12.01"
+                                            y2="16"
+                                        />
+                                    </svg>
+                                </div>
+                                <div class="alert-body">
+                                    <div class="alert-ttl">
+                                        ДРР сайта gold.pro превышает 25%
+                                    </div>
+                                    <div class="alert-sub">
+                                        Необходимо проанализировать цены и
+                                        конкурентов. Падение CR на 4% в среднем
+                                        по карточкам
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="alert-actions">
+                                <div class="action-bar">
+                                    <button
+                                        class="action-btn primary"
+                                        onclick="
+                                            sendTask(
+                                                this,
+                                                'Pricing-агент',
+                                                'Анализ цен конкурентов для gold.pro',
+                                            )
+                                        "
+                                    >
+                                        Анализ цен конкурентов
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="task-sent" id="alert2-sent">
+                                <div class="task-sent-icon">✅</div>
+                                <div class="task-sent-text">
+                                    <strong>Задача отправлена.</strong>
+                                    Pricing-агент запускает анализ.
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="alert crit" id="alert3">
+                            <div
+                                class="alert-top"
+                                onclick="toggleAlert('alert3')"
+                            >
+                                <div class="alert-ico">
+                                    <svg
+                                        width="14"
+                                        height="14"
+                                        viewBox="0 0 24 24"
+                                        fill="none"
+                                        stroke="#ef4444"
+                                        stroke-width="2"
+                                        stroke-linecap="round"
+                                        stroke-linejoin="round"
+                                    >
+                                        <path
+                                            d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"
+                                        />
+                                        <line x1="12" y1="9" x2="12" y2="13" />
+                                        <line
+                                            x1="12"
+                                            y1="17"
+                                            x2="12.01"
+                                            y2="17"
+                                        />
+                                    </svg>
+                                </div>
+                                <div class="alert-body">
+                                    <div class="alert-ttl">
+                                        % отказов по kraski.pro вырос до 55%
+                                    </div>
+                                    <div class="alert-sub">
+                                        Более 80% ассортимента нет в наличии.
+                                        Рекомендуется отключить рекламу
+                                    </div>
+                                </div>
+                                <div class="alert-cost">−11К/нед</div>
+                            </div>
+                            <div class="alert-actions">
+                                <div class="action-bar">
+                                    <button
+                                        class="action-btn primary"
+                                        onclick="
+                                            sendTask(
+                                                this,
+                                                'Ads-агент',
+                                                'Отключить рекламу для kraski.pro',
+                                            )
+                                        "
+                                    >
+                                        Отключить рекламу
+                                    </button>
+                                    <button
+                                        class="action-btn"
+                                        onclick="
+                                            sendTask(
+                                                this,
+                                                'Supply-агент',
+                                                'Проверить наличие у местных поставщиков для kraski.pro',
+                                            )
+                                        "
+                                    >
+                                        Проверить наличие у местных поставщиков
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="task-sent" id="alert3-sent">
+                                <div class="task-sent-icon">✅</div>
+                                <div class="task-sent-text">
+                                    <strong>Задача отправлена.</strong> Агент
+                                    приступил к задаче.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- CHANNELS -->
+                <div class="card" style="animation-delay: 0.35s">
+                    <div class="card-head">
+                        <div class="card-title">
+                            <svg
+                                width="16"
+                                height="16"
+                                viewBox="0 0 24 24"
+                                fill="none"
+                                stroke="var(--text-secondary)"
+                                stroke-width="2"
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                            >
+                                <rect
+                                    x="3"
+                                    y="3"
+                                    width="18"
+                                    height="18"
+                                    rx="2"
+                                />
+                                <line x1="3" y1="9" x2="21" y2="9" />
+                                <line x1="9" y1="21" x2="9" y2="9" />
+                            </svg>
+                            Карта каналов
+                        </div>
+                        <div
+                            class="channel-metric-toggle"
+                            role="group"
+                            aria-label="Показатель по каналам"
+                        >
+                            <button
+                                type="button"
+                                class="channel-metric-btn on"
+                                data-metric="revenue"
+                            >
+                                Выручка
+                            </button>
+                            <button
+                                type="button"
+                                class="channel-metric-btn"
+                                data-metric="profit"
+                            >
+                                Прибыль
+                            </button>
+                        </div>
+                    </div>
+                    <div class="ch-bars">
+                        <div class="ch-row" data-channel="wb">
+                            <span class="ch-name">Wildberries</span>
+                            <div class="ch-track">
+                                <div class="ch-fill wb" style="width: 42%">
+                                    <span>5.95М</span>
+                                </div>
+                            </div>
+                            <span class="ch-pct">42%</span>
+                            <span class="ch-trend" title="Динамика за период"
+                                >+14%</span
+                            >
+                        </div>
+                        <div class="ch-row" data-channel="oz">
+                            <span class="ch-name">Ozon</span>
+                            <div class="ch-track">
+                                <div class="ch-fill oz" style="width: 24%">
+                                    <span>3.47М</span>
+                                </div>
+                            </div>
+                            <span class="ch-pct">24%</span>
+                            <span
+                                class="ch-trend trend-neg"
+                                title="Динамика за период"
+                                >−14%</span
+                            >
+                        </div>
+                        <div class="ch-row" data-channel="ym">
+                            <span class="ch-name">Яндекс.Маркет</span>
+                            <div class="ch-track">
+                                <div class="ch-fill ym" style="width: 12%">
+                                    <span>1.74М</span>
+                                </div>
+                            </div>
+                            <span class="ch-pct">12%</span>
+                            <span class="ch-trend" title="Динамика за период"
+                                >+13%</span
+                            >
+                        </div>
+                        <div class="ch-row" data-channel="st">
+                            <span class="ch-name">Сайты</span>
+                            <div class="ch-track">
+                                <div class="ch-fill st" style="width: 22%">
+                                    <span>3.12М</span>
+                                </div>
+                            </div>
+                            <span class="ch-pct">22%</span>
+                            <span
+                                class="ch-trend trend-neg"
+                                title="Динамика за период"
+                                >−12%</span
+                            >
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- BOTTOM -->
+            <div class="bottom">
+                <div
+                    class="card oper-profit-card"
+                    style="animation-delay: 0.4s"
+                >
+                    <div class="card-head pnl-card-head">
+                        <div class="card-title oper-profit-title">
+                            <svg
+                                width="16"
+                                height="16"
+                                viewBox="0 0 24 24"
+                                fill="none"
+                                stroke="var(--text-secondary)"
+                                stroke-width="2"
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                            >
+                                <line x1="18" y1="20" x2="18" y2="10" />
+                                <line x1="12" y1="20" x2="12" y2="4" />
+                                <line x1="6" y1="20" x2="6" y2="14" />
+                            </svg>
+                            Операционная прибыль — 7 дней
+                        </div>
+                        <div
+                            class="pnl-period-tabs"
+                            role="tablist"
+                            aria-label="Масштаб графика P&amp;L"
+                        >
+                            <button type="button" class="pnl-tab">День</button>
+                            <button type="button" class="pnl-tab active">
+                                Неделя
+                            </button>
+                            <button type="button" class="pnl-tab">
+                                Месяц
+                            </button>
+                            <button type="button" class="pnl-tab">
+                                Квартал
+                            </button>
+                        </div>
+                    </div>
+                    <div class="pnl-block" data-pnl-chart-wrap>
+                        <div class="pnl-legend">
+                            <div class="pnl-legend-item">
+                                <span
+                                    class="pnl-legend-dot"
+                                    style="background: #34d399"
+                                ></span>
+                                Выручка
+                            </div>
+                            <div class="pnl-legend-item">
+                                <span
+                                    class="pnl-legend-dot"
+                                    style="background: #f87171"
+                                ></span>
+                                Переменные расходы
+                            </div>
+                            <div class="pnl-legend-item">
+                                <span
+                                    class="pnl-legend-dot"
+                                    style="background: #fbbf24"
+                                ></span>
+                                Постоянные расходы
+                            </div>
+                            <div class="pnl-legend-item">
+                                <span
+                                    class="pnl-legend-dot"
+                                    style="background: #94a3b8"
+                                ></span>
+                                Амортизация
+                            </div>
+                            <div class="pnl-legend-item">
+                                <span
+                                    class="pnl-legend-dot"
+                                    style="background: #a78bfa"
+                                ></span>
+                                Налоги
+                            </div>
+                        </div>
+                        <div class="pnl-chart-wrap">
+                            <canvas id="pnlWeekChart"></canvas>
+                        </div>
+                        <div class="pnl-metrics">
+                            <div class="pnl-metric">
+                                <div class="pnl-metric-label">Выручка</div>
+                                <div
+                                    class="pnl-metric-value"
+                                    id="pnl-m-revenue"
+                                >
+                                    —
+                                </div>
+                                <div
+                                    class="pnl-metric-sub pnl-metric-sub--pos"
+                                    id="pnl-m-revenue-sub"
+                                ></div>
+                            </div>
+                            <div class="pnl-metric">
+                                <div class="pnl-metric-label">
+                                    Валовая маржа
+                                </div>
+                                <div class="pnl-metric-value">35%</div>
+                                <div class="pnl-metric-sub pnl-metric-sub--pos">
+                                    +1,2% vs пр. нед
+                                </div>
+                            </div>
+                            <div class="pnl-metric">
+                                <div class="pnl-metric-label">
+                                    Чистая прибыль
+                                </div>
+                                <div class="pnl-metric-value" id="pnl-m-profit">
+                                    —
+                                </div>
+                                <div
+                                    class="pnl-metric-sub"
+                                    id="pnl-m-profit-sub"
+                                ></div>
+                            </div>
+                            <div class="pnl-metric">
+                                <div class="pnl-metric-label">
+                                    Точка безубыточности
+                                </div>
+                                <div
+                                    class="pnl-metric-value"
+                                    id="pnl-m-breakeven"
+                                >
+                                    —
+                                </div>
+                                <span class="pnl-metric-badge" id="pnl-m-safety"
+                                    ></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card" style="animation-delay: 0.45s">
+                    <div class="card-head">
+                        <div class="card-title">
+                            <svg
+                                width="16"
+                                height="16"
+                                viewBox="0 0 24 24"
+                                fill="none"
+                                stroke="var(--text-secondary)"
+                                stroke-width="2"
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                            >
+                                <polygon
+                                    points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"
+                                />
+                            </svg>
+                            Топ SKU недели
+                        </div>
+                    </div>
+                    <div class="sku-list" id="top-sku-list">
+                        <div class="sku sku-head">
+                            <span class="sku-r" aria-hidden="true"></span>
+                            <span class="sku-n"></span>
+                            <span class="sku-v"></span>
+                            <span class="sku-head-spacer"></span>
+                            <span class="sku-col-h">шт</span>
+                            <span class="sku-col-h">дн</span>
+                        </div>
+                        <div class="sku sku-data">
+                            <span class="sku-r">1</span>
+                            <span class="sku-n"
+                                >TIGI Bed Head AFTER PARTY Smoothing Cream 100
+                                ml</span
+                            >
+                            <span class="sku-v">842К</span>
+                            <span class="delta sku-delta up">+22%</span>
+                            <span
+                                class="sku-stock"
+                                title="Суммарные остатки, шт."
+                            ></span>
+                            <span
+                                class="sku-days"
+                                title="Дней до исчезновения"
+                            ></span>
+                        </div>
+                        <div class="sku sku-data">
+                            <span class="sku-r">2</span>
+                            <span class="sku-n"
+                                >BATISTE Original сухой шампунь 200 мл</span
+                            >
+                            <span class="sku-v">634К</span>
+                            <span class="delta sku-delta up">+8%</span>
+                            <span
+                                class="sku-stock"
+                                title="Суммарные остатки, шт."
+                            ></span>
+                            <span
+                                class="sku-days"
+                                title="Дней до исчезновения"
+                            ></span>
+                        </div>
+                        <div class="sku sku-data">
+                            <span class="sku-r">3</span>
+                            <span class="sku-n"
+                                >TIGI Bed Head SMALL TALK 3-in-1 MINI 125
+                                ml</span
+                            >
+                            <span class="sku-v">521К</span>
+                            <span class="delta sku-delta up">+31%</span>
+                            <span
+                                class="sku-stock"
+                                title="Суммарные остатки, шт."
+                            ></span>
+                            <span
+                                class="sku-days"
+                                title="Дней до исчезновения"
+                            ></span>
+                        </div>
+                        <div class="sku sku-data">
+                            <span class="sku-r">4</span>
+                            <span class="sku-n"
+                                >TIGI Bed Head QUEEN for a Day Thickening Spray
+                                311 ml</span
+                            >
+                            <span class="sku-v">498К</span>
+                            <span class="delta sku-delta dn">−4%</span>
+                            <span
+                                class="sku-stock"
+                                title="Суммарные остатки, шт."
+                            ></span>
+                            <span
+                                class="sku-days"
+                                title="Дней до исчезновения"
+                            ></span>
+                        </div>
+                        <div class="sku sku-data">
+                            <span class="sku-r">5</span>
+                            <span class="sku-n"
+                                >Londa Professional Velvet Oil Lightweight Oil
+                                100 ml</span
+                            >
+                            <span class="sku-v">467К</span>
+                            <span class="delta sku-delta up">+15%</span>
+                            <span
+                                class="sku-stock"
+                                title="Суммарные остатки, шт."
+                            ></span>
+                            <span
+                                class="sku-days"
+                                title="Дней до исчезновения"
+                            ></span>
+                        </div>
+                        <div class="sku sku-data">
+                            <span class="sku-r">6</span>
+                            <span class="sku-n"
+                                >Schwarzkopf Blondme Premium Lightener 9+ 450
+                                g</span
+                            >
+                            <span class="sku-v">412К</span>
+                            <span class="delta sku-delta fl">→ 0%</span>
+                            <span
+                                class="sku-stock"
+                                title="Суммарные остатки, шт."
+                            ></span>
+                            <span
+                                class="sku-days"
+                                title="Дней до исчезновения"
+                            ></span>
+                        </div>
+                        <div class="sku sku-data">
+                            <span class="sku-r">7</span>
+                            <span class="sku-n"
+                                >TIGI Bed Head BH 21 MASTERPIECE Massive
+                                Hairspray 340 ml</span
+                            >
+                            <span class="sku-v">389К</span>
+                            <span class="delta sku-delta up">+44%</span>
+                            <span
+                                class="sku-stock"
+                                title="Суммарные остатки, шт."
+                            ></span>
+                            <span
+                                class="sku-days"
+                                title="Дней до исчезновения"
+                            ></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- CMD BAR -->
+            <div class="cmd-bar">
+                <div class="cmd-icon">
+                    <svg
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="#fff"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                    >
+                        <path
+                            d="M12 2a8 8 0 0 0-8 8c0 3.4 2.1 6.4 5.1 7.6.3.1.5.4.5.7V20h4.8v-1.7c0-.3.2-.6.5-.7A8 8 0 0 0 20 10a8 8 0 0 0-8-8z"
+                        />
+                        <line x1="10" y1="22" x2="14" y2="22" />
+                    </svg>
+                </div>
+                <input
+                    class="cmd-input"
+                    type="text"
+                    placeholder="Задайте агенту вопрос. Например: причины роста бренда ORising на Ozon"
+                />
+            </div>
+        </main>
+
+        <!-- ═══════ RIGHT PANEL: AGENTS (LIGHT) ═══════ -->
+        <aside class="agents-panel">
+            <div class="agents-header">
+                <h3>
+                    <svg
+                        width="18"
+                        height="18"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="#1a1d26"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                    >
+                        <rect x="3" y="11" width="18" height="11" rx="2" />
+                        <path d="M7 11V7a5 5 0 0 1 10 0v4" />
+                        <circle cx="12" cy="16" r="1" />
+                    </svg>
+                    <span>AI-агенты</span>
+                </h3>
+                <div
+                    class="agents-summary"
+                    id="agents-summary"
+                    aria-live="polite"
+                ></div>
+            </div>
+            <div class="agents-list">
+                <div class="agent-card">
+                    <div class="agent-top">
+                        <div class="agent-name">
+                            <span class="agent-status-dot active"></span>
+                            Pricing-агент
+                        </div>
+                        <span class="agent-status-label active">работает</span>
+                    </div>
+                    <div class="agent-task">
+                        Сбор цен по конкуренту <em>«Золотое яблоко»</em> бренда
+                        <em>Tigi</em>.
+                    </div>
+                    <div class="agent-meta">
+                        <div class="agent-progress-track">
+                            <div
+                                class="agent-progress-fill green"
+                                style="width: 72%"
+                            ></div>
+                        </div>
+                        72% · ~14 мин
+                    </div>
+                </div>
+            </div>
+        </aside>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
+        <script src="app.js"></script>
+    </body>
+</html>
